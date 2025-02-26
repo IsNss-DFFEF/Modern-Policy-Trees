@@ -4,7 +4,8 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 120,
-		"uniques": ["[1] population [in this city] <by consuming this unit>",
+		"uniques": ["[-1] population [in this city] <upon constructing [Migrant] [in this city]>",
+			"[1] population [in this city] <by consuming this unit>",
 			"Requires at least [2] population",
       "Only available <after adopting [Resettlement]>"
     ],
