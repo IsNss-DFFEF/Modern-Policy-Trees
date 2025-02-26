@@ -150,7 +150,7 @@
                 "[+5]% [Food] [in all cities] <in cities with at least [15] [Population]>",
                 "[+5]% [Food] [in all cities] <in cities with at least [30] [Population]>",
                 "[+5]% [Food] [in all cities] <in cities with at least [45] [Population]>",
-                "[+5]% [Food] [in all cities] <in cities with at least [60] [Population]>",]
+                "[+5]% [Food] [in all cities] <in cities with at least [60] [Population]>"]
             }
         ]
     },
@@ -199,7 +199,7 @@
                 "uniques": [
 
                 ],
-                "requires": ["Accelerationism"],
+                "requires": ["Abandoning God"],
                 "row": 3,
                 "column": 5
             },
