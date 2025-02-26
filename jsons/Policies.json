@@ -144,7 +144,7 @@
                 "column": 3
             },
             {
-                "name": "Development complete",
+                "name": "Development Complete",
                 "uniques": [
                 "[+1 Happiness, +1 Culture, +1 Production, -3 Gold] per [3] population [in all cities]",
                 "[+5]% [Food] [in all cities] <in cities with at least [15] [Population]>",
@@ -204,7 +204,7 @@
                 "column": 5
             },
             {
-                "name": "Innovation complete",
+                "name": "Innovation Complete",
                 "uniques": [
 ]
             }
