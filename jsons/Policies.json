@@ -155,46 +155,47 @@
         ]
     },
    {
-        "name": "Development",
+        "name": "Innovation",
         "era": "Modern era",
-        "uniques": ["[+1 Production] per [2] population [in all cities]","[-25]% construction time for [All] improvements"],
+        "uniques": [],
         "policies": [
             {
-                "name": "Urbanization",
+                "name": "Modernizing Education",
                 "uniques": [
 
                 ],
                 "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Megaprojects",
-                "uniques": [
-
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Globalization",
-                "uniques": [
-
-                ],
-                "requires": ["Urbanization"],
-                "row": 2,
-                "column": 5
-            },
-            {
-                "name": "Resource Exploitation",
-                "uniques": [
-
-                ],
-                "requires": ["Urbanization","Megaprojects"],
-                "row": 2,
                 "column": 1
             },
             {
-                "name": "Welfare State",
+                "name": "Forgoing Ethics",
+                "uniques": [
+
+                ],
+                "requires": ["Modernizing Education"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Accelerationism",
+                "uniques": [
+
+                ],
+                "requires": ["Forgoing Ethics"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Abandoning God",
+                "uniques": [
+
+                ],
+                "requires": ["Accelerationism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Abandoning God",
                 "uniques": [
 
                 ],
@@ -203,7 +204,7 @@
                 "column": 3
             },
             {
-                "name": "Development complete",
+                "name": "Innovation complete",
                 "uniques": [
 ]
             }
