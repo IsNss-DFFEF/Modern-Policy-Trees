@@ -195,13 +195,13 @@
                 "column": 4
             },
             {
-                "name": "Abandoning God",
+                "name": "Unconventional Sciences",
                 "uniques": [
 
                 ],
-                "requires": ["Globalization","Megaprojects"],
+                "requires": ["Accelerationism"],
                 "row": 3,
-                "column": 3
+                "column": 5
             },
             {
                 "name": "Innovation complete",
