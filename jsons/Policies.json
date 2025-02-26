@@ -2,8 +2,7 @@
   {
         "name": "Authority",
         "era": "Modern era",
-        "uniques": ["[-25]% Unhappiness from [Population] [in all cities]",
-"Triggers the following global alert: [-nation- has enacted martial law!]"],
+        "uniques": ["[-25]% Unhappiness from [Population] [in all cities]"],
         "policies": [
             {
                 "name": "Resettlement",
