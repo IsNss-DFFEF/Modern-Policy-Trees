@@ -157,7 +157,7 @@
    {
         "name": "Innovation",
         "era": "Modern era",
-        "uniques": [],
+        "uniques": ["[Great Scientist] is earned [50]% faster"],
         "policies": [
             {
                 "name": "Modernizing Education",
@@ -170,41 +170,47 @@
             {
                 "name": "Forgoing Ethics",
                 "uniques": [
-
+                  "[+30]% [Science] <in cities with a [Research Lab]>",
+                  "[-10]% [Food] <in cities with a [Research Lab]>",
+                  "[-10]% [Production] <in cities with a [Research Lab]>",
                 ],
                 "requires": ["Modernizing Education"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Accelerationism",
+                "name": "Unconventional Sciences",
                 "uniques": [
 
                 ],
-                "requires": ["Forgoing Ethics","Abandoning God"],
+                "requires": ["Forgoing Ethics","Accelerationism"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "Abandoning God",
+                "name": "Accelerationism",
                 "uniques": [
-
+                  "[+1 Science] per [1] population [in all cities]",
+                  "[+4 Happiness, +4 Culture] from all [Palace] buildings <upon entering the [Information era]>",
+                  "[+4 Happiness, +4 Culture] from all [Palace] buildings <upon entering the [Future era]>"
                 ],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "Unconventional Sciences",
+                "name": "Abandoning God",
                 "uniques": [
-
+                  "[-2 Faith, +2 Science] per every [3] [Faith]"
                 ],
-                "requires": ["Abandoning God"],
+                "requires": ["Accelerationism"],
                 "row": 3,
                 "column": 5
             },
             {
                 "name": "Innovation Complete",
                 "uniques": [
+                  "[+25]% strength for [All] military units <after discovering [Future Tech]>",
+                "[2] free [Great Scientist] units appear"]
 ]
             }
         ]
