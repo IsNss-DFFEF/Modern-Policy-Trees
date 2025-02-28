@@ -2,7 +2,9 @@
   {
         "name": "Authority",
         "era": "Modern era",
-        "uniques": ["[-25]% Unhappiness from [Population] [in all cities]"],
+        "uniques": ["[-25]% Unhappiness from [Population] [in all cities]",
+        "Only available <before adopting [Development]>",
+        "Only available <before adopting [Innovation]>"],
         "policies": [
             {
                 "name": "Resettlement",
@@ -76,7 +78,9 @@
   {
         "name": "Development",
         "era": "Modern era",
-        "uniques": ["[+1 Production] per [2] population [in all cities]","[-25]% construction time for [All] improvements"],
+        "uniques": ["[+1 Production] per [2] population [in all cities]","[-25]% construction time for [All] improvements",
+        "Only available <before adopting [Authority]>",
+        "Only available <before adopting [Innovation]>"],
         "policies": [
             {
                 "name": "Urbanization",
@@ -157,7 +161,9 @@
    {
         "name": "Innovation",
         "era": "Modern era",
-        "uniques": ["[Great Scientist] is earned [50]% faster"],
+        "uniques": ["[Great Scientist] is earned [50]% faster",
+        "Only available <before adopting [Authority]>",
+        "Only available <before adopting [Development]>"],
         "policies": [
             {
                 "name": "Modernizing Education",
