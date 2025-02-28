@@ -29,19 +29,7 @@
             {
                 "name": "Illegalize Inflation",
                 "uniques": [
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-"[-5]% [Gold] [in all cities] <with [5]% chance> <every [1] turns> <hidden from users>",
-                  "Comment [Random amount of gold produced per turn between 100% and 40% of normal gold production]",
+"[-50]% [Gold] [in all cities] <with [50]% chance> <every [1] turns>",
                   "[+2 Happiness, +2 Food, +2 Production] [in all cities]"
                 ],
                 "requires": ["Brainwashing"],
@@ -63,7 +51,7 @@
             {
                 "name": "Cult of Personality",
                 "uniques": [
-"[+12 Happiness] [in Capital cities]"
+"[+12 Happiness] from every [Palace] building"
                 ],
                 "requires": ["Newspeak"],
                 "row": 3,
