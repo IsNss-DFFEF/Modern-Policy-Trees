@@ -51,7 +51,7 @@
             {
                 "name": "Cult of Personality",
                 "uniques": [
-"[+12 Happiness] from every [Palace] building"
+                  "[+12 Happiness]"
                 ],
                 "requires": ["Newspeak"],
                 "row": 3,
@@ -181,16 +181,19 @@
                 "name": "Accelerationism",
                 "uniques": [
                   "[+1 Science] per [1] population [in all cities]",
-                  "[+4 Happiness, +4 Culture] from all [Palace] buildings",
-                  "[+4 Happiness, +4 Culture] from [Academy] tiles [in all cities]"
+                  "[+3 Happiness, +3 Culture] <during the [Atomic era]>",
+                  "[+6 Happiness, +6 Culture] <during the [Information era]>",
+                  "[+9 Happiness, +9 Culture] <starting from the [Future era]>",
+                  "[+3 Happiness, +3 Culture, +2 Food, +2 Production] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "Abandoning God",
+                "name": "Technological Utopia",
                 "uniques": [
-                  "[-2 Faith, +2 Science] per every [3] [Faith]"
+                  "[-2 Faith, +2 Science] per every [3] [Faith]",
+                  
                 ],
                 "requires": ["Accelerationism"],
                 "row": 3,
