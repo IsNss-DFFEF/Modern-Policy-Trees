@@ -31,7 +31,7 @@
                 ],
                 "requires": ["Propaganda"],
                 "row": 2,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Newspeak",
@@ -43,14 +43,14 @@
                 ],
                 "requires": ["Propaganda"],
                 "row": 2,
-                "column": 3
+                "column": 1
             },
             {
                 "name": "Cult of Personality",
                 "uniques": [
-                  "[+12 Happiness]"
+                  "[+12 Happiness] from all [Palace] buildings"
                 ],
-                "requires": ["Newspeak"],
+                "requires": ["Social Engineering"],
                 "row": 3,
                 "column": 5
             },
@@ -178,10 +178,10 @@
                 "name": "Accelerationism",
                 "uniques": [
                   "[+1 Science] per [1] population [in all cities]",
-                  "[+3 Happiness, +3 Culture] <during the [Atomic era]>",
-                  "[+6 Happiness, +6 Culture] <during the [Information era]>",
-                  "[+9 Happiness, +9 Culture] <starting from the [Future era]>",
-                  "[+3 Happiness, +3 Culture, +2 Food, +2 Production] from [Academy] tiles [in all cities]"
+                  "[+2 Happiness, +3 Culture] <during the [Atomic era]>",
+                  "[+4 Happiness, +6 Culture] <during the [Information era]>",
+                  "[+6 Happiness, +9 Culture] <starting from the [Future era]>",
+                  "[+2 Happiness, +2 Culture, +2 Food, +2 Production] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
                 "column": 4
