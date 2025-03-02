@@ -2,7 +2,7 @@
   {
         "name": "Authority",
         "era": "Atomic era",
-        "uniques": ["[-25]% Unhappiness from [Population] [in all cities]",
+        "uniques": ["[-15]% Unhappiness from [Population] [in all cities]",
         "Only available <before adopting [Development]>",
         "Only available <before adopting [Innovation]>"],
         "policies": [
@@ -16,23 +16,21 @@
                 "column": 5
             },
             {
-                "name": "Brainwashing",
+                "name": "Propaganda",
                 "uniques": [
                   "[+2 Happiness] <in cities with a [Broadcast Station]>",
 "[+2 Happiness] <in cities with a [Stadium]>",
 "[+2 Happiness] <in cities with a [Hospital]>",
-"[-50]% Unhappiness from [Population] [in your cities] <when at war>"
+"[-30]% Unhappiness from [Population] [in your cities] <when at war>"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "Illegalize Inflation",
+                "name": "Social Engineering",
                 "uniques": [
-"[-50]% [Gold] [in all cities] <with [50]% chance> <every [1] turns>",
-                  "[+2 Happiness, +2 Food, +2 Production] [in all cities]"
                 ],
-                "requires": ["Brainwashing"],
+                "requires": ["Propaganda"],
                 "row": 2,
                 "column": 1
             },
@@ -44,7 +42,7 @@
                   "[-15]% [Culture] [in all cities]",
                   "[-15]% [Science] [in all cities]",
                 ],
-                "requires": ["Brainwashing"],
+                "requires": ["Propaganda"],
                 "row": 2,
                 "column": 3
             },
@@ -149,10 +147,10 @@
             {
                 "name": "Modernizing Education",
                 "uniques": [
-                  "[+1 Science] from all [Science] buildings",
-                  "[+1 Food] from all [Food] buildings",
-                  "[+1 Gold] from all [Gold] buildings",
-                  "[+1 Production] from all [Production] buildings",
+                  "[+2 Science] from all [Science] buildings",
+                  "[+2 Food] from all [Food] buildings",
+                  "[+2 Gold] from all [Gold] buildings",
+                  "[+2 Production] from all [Production] buildings",
                   "[+20]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
@@ -161,9 +159,9 @@
             {
                 "name": "Forgoing Ethics",
                 "uniques": [
-                  "[+30]% [Science] <in cities with a [Research Lab]>",
-                  "[-10]% [Food] <in cities with a [Research Lab]>",
-                  "[-10]% [Production] <in cities with a [Research Lab]>",
+                  "[+20]% [Science] <in cities with a [Research Lab]>",
+                  "[+10]% [Food] <in cities with a [Research Lab]>",
+                  "[+10]% [Production] <in cities with a [Research Lab]>",
                 ],
                 "requires": ["Modernizing Education"],
                 "row": 2,
@@ -193,6 +191,7 @@
                 "name": "Technological Utopia",
                 "uniques": [
                   "[-2 Faith, +2 Science] per every [3] [Faith]",
+                  "[+2 Happiness, +2 Food, +2 Culture, +2 Science] [in all cities]"
                   
                 ],
                 "requires": ["Accelerationism"],
