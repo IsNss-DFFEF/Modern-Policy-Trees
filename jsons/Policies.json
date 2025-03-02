@@ -20,7 +20,6 @@
                 "uniques": [
                   "[+2 Happiness] <in cities with a [Broadcast Station]>",
 "[+2 Happiness] <in cities with a [Stadium]>",
-"[+2 Happiness] <in cities with a [Hospital]>",
 "[-30]% Unhappiness from [Population] [in your cities] <when at war>"
                 ],
                 "row": 1,
