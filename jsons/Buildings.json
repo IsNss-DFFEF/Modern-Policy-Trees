@@ -1,0 +1,29 @@
+[
+  //Authority
+  	{
+		"name": "Social Engineering",
+		"cost": 750,
+		"culture": 5,
+    "happiness": 2,
+		"isNationalWonder": true,
+		"uniques": ["Only available <after adopting [Social Engineering]>"],
+	},
+    //Development
+    	{
+		"name": "Economic Incentives",
+		"cost": 750,
+		"gold": 5,
+    "food": 2,
+		"isNationalWonder": true,
+		"uniques": ["Only available <after adopting [Economic Incentives]>"],
+	},
+  //Innovation
+    	{
+		"name": "Unconventional Sciences",
+		"cost": 750,
+		"science": 5,
+    "production": 2,
+		"isNationalWonder": true,
+		"uniques": ["Only available <after adopting [Unconventional Sciences]>"],
+	},
+]
