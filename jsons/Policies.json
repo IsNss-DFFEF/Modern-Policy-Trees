@@ -28,6 +28,7 @@
             {
                 "name": "Social Engineering",
                 "uniques": [
+                  "Comment [Unlocks Social Engineering]"
                 ],
                 "requires": ["Propaganda"],
                 "row": 2,
@@ -101,6 +102,7 @@
             {
                 "name": "Economic Incentives",
                 "uniques": [
+                  "Comment [Unlocks Economic Incentives]"
                 ],
                 "requires": ["Urbanization","Megaprojects"],
                 "row": 2,
@@ -163,6 +165,7 @@
             {
                 "name": "Unconventional Sciences",
                 "uniques": [
+                  "Comment [Unlocks Unconventional Sciences]"
                 ],
                 "requires": ["Forgoing Ethics","Accelerationism"],
                 "row": 3,
