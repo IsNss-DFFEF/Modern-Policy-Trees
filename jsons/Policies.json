@@ -19,8 +19,8 @@
                 "name": "Propaganda",
                 "uniques": [
                   "[+2 Happiness] <in cities with a [Broadcast Station]>",
-"[+2 Happiness] <in cities with a [Stadium]>",
-"[-30]% Unhappiness from [Population] [in your cities] <when at war>"
+                  "[+2 Happiness] <in cities with a [Stadium]>",
+                  "[-75]% Unhappiness from [Population] [in puppeted cities]"
                 ],
                 "row": 1,
                 "column": 3
