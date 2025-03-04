@@ -18,6 +18,7 @@
 		
 		"Comment [Unlocks Conformity School]"],
 		"requiredTech": "Globalization"
+	},
 		{
 		"name": "Conformity School",
 		"cost": 500
