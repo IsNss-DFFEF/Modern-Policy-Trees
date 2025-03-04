@@ -274,7 +274,9 @@
 		"uniques": ["Only available <after adopting [Unconventional Sciences]>",
 			"Only available <in cities with a [Unconventional Sciences]>",
 			"Unbuildable","Unsellable",
-			"Can be purchased for [250] [Science] [in all cities] <(modified by game speed)>",],
+			"Can be purchased for [250] [Science] [in all cities] <(modified by game speed)>",
+		
+		"Comment [Unlocks Terraformer]"],
 		"requiredTech": "Pottery"
 	},
 ]
