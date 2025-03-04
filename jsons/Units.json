@@ -10,5 +10,15 @@
       "Only available <after adopting [Resettlement]>"
     ],
 		"hurryCostModifier": 20
-	}
+	},
+	  	{
+		"name": "Terraformer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 900,
+		"uniques": [
+      "Only available <if [Terraforming] is constructed>"
+    ],
+		"hurryCostModifier": 20
+	},
 ]
