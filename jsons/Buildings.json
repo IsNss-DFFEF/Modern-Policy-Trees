@@ -277,6 +277,6 @@
 			"Can be purchased for [250] [Science] [in all cities] <(modified by game speed)>",
 		
 		"Comment [Unlocks Terraformer]"],
-		"requiredTech": "Pottery"
+		"requiredTech": "Future Tech"
 	},
 ]
