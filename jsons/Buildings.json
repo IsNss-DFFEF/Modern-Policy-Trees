@@ -197,8 +197,8 @@
 		"science": 2,
 		"requiredTech": "Combined Arms",
 		"uniques": ["Only available <if [Incendiary Weapons] is constructed>",
-		"All newly-trained [non-[Air]] units [in this city] receive the [White Phosphorus] promotion",
-		"All newly-trained [Air] units [in this city] receive the [Napalm] promotion"]
+		"All newly-trained [Land] units [in this city] receive the [White Phosphorus] promotion",
+		"All newly-trained [non-[{Land} {Submarine}]] units [in this city] receive the [Napalm] promotion"]
 	},
 	},
 					{
