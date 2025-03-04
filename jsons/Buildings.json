@@ -188,7 +188,7 @@
 		
 		"Comment [Unlocks Incendiary Weapons Factory]"],
 		"requiredTech": "Combined Arms"
-						{
+				},{
 		"name": "Incendiary Weapons Factory",
 		"cost": 500
 		"requiredBuilding": "Factory",
