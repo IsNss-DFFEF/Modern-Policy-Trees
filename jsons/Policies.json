@@ -16,11 +16,11 @@
                 "column": 5
             },
             {
-                "name": "Propaganda",
+                "name": "Veneration of the State",
                 "uniques": [
                   "[+2 Happiness] <in cities with a [Broadcast Station]>",
                   "[+2 Happiness] <in cities with a [Stadium]>",
-                  "[-75]% Unhappiness from [Population] [in puppeted cities]"
+                  "[-50]% Unhappiness from [Population] [in puppeted cities]"
                 ],
                 "row": 1,
                 "column": 3
