@@ -16,7 +16,7 @@
                 "column": 5
             },
             {
-                "name": "Veneration of the State",
+                "name": "Propagandization",
                 "uniques": [
                   "[+2 Happiness] <in cities with a [Broadcast Station]>",
                   "[+2 Happiness] <in cities with a [Stadium]>",
@@ -30,7 +30,7 @@
                 "uniques": [
                   "Comment [Unlocks Social Engineering]"
                 ],
-                "requires": ["Propaganda"],
+                "requires": ["Propagandization"],
                 "row": 2,
                 "column": 3
             },
@@ -42,7 +42,7 @@
                   "[-15]% [Happiness] [in all cities]",
                   "[-15]% [Science] [in all cities]",
                 ],
-                "requires": ["Propaganda"],
+                "requires": ["Propagandization"],
                 "row": 2,
                 "column": 1
             },
