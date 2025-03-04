@@ -199,7 +199,7 @@
 		"uniques": ["Only available <if [Incendiary Weapons] is constructed>",
 		"All newly-trained [Land] units [in this city] receive the [White Phosphorus] promotion",
 		"All newly-trained [non-[{Land} {Submarine}]] units [in this city] receive the [Napalm] promotion"]
-	},
+	
 	},
 					{
 		"name": "Desalination",
