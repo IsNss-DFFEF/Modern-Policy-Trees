@@ -4,4 +4,19 @@
 		"resourceType": "Luxury",
 		"uniques": []
 	},
+	{
+		"name": "Media",
+		"resourceType": "Luxury",
+		"uniques": []
+	},
+	{
+		"name": "Organs",
+		"resourceType": "Luxury",
+		"uniques": []
+	},
+	{
+		"name": "Incendiary Weapons",
+		"resourceType": "Strategic",
+		"uniques": []
+	},
 ]
