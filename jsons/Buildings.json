@@ -51,7 +51,8 @@
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["Only available <if [Brainwashing] is constructed>",
 		"[-10]% Unhappiness from [Population] [in this city]",
-		"Provides [1] [Happy Pills]"]
+		"Provides [1] [Happy Pills]",
+		"Limited to [6] per Civilization"]
 	},
 	{
 		"name": "Newspeak",
@@ -120,18 +121,33 @@
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",
 		
-		"[+1 Gold, +1 Production] from all [Production] buildings",
-		"[+1 Gold, +1 Production] from all [Gold] buildings",
+		"[+2 Gold] from all [Production] buildings",
+		"[+2 Production] from all [Gold] buildings",
 		"Production to [Gold] conversion in cities changed by [+50]%"],
-		"requiredTech": "Pottery"
+		"requiredTech": "Radar"
 	},
 			{
 		"name": "Entertainment Industry",
 		"uniques": ["Only available <after adopting [Economic Incentives]>",
 			"Only available <in cities with a [Economic Incentives]>",
 			"Unbuildable","Unsellable",
-			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",],
-		"requiredTech": "Pottery"
+			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",
+		
+		"Comment [Unlocks Media Satellite]"],
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "Media Satellite",
+		"cost": 300
+		"requiredBuilding": "Broadcast Tower",
+		"maintenance": 4,
+		"happiness": 3,
+		"culture": 3,
+		"percentStatBonus": {"culture": 15},
+		"requiredTech": "Satellites",
+		"uniques": ["Only available <if [Entertainment Industry] is constructed>",
+		"Provides [1] [Media]",
+		"Limited to [6] per Civilization"]
 	},
 			{
 		"name": "Manufacturing Industry",
@@ -139,9 +155,10 @@
 			"Only available <in cities with a [Economic Incentives]>",
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",
-			
-			"Comment [Manufacturies and Factories give 1 Manufactured Products resource each]"],
-		"requiredTech": "Pottery"
+
+			"[+4 Gold, +2 Production, +2 Food] from [Manufactory] tiles [in all cities]",
+			"[+2 Gold, +2 Production, +2 Food] from all [Factory] buildings"],
+		"requiredTech": "Robotics"
 	},
 			{
 		"name": "Civilian Mechanization",
@@ -151,7 +168,7 @@
 			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",
 		
 			"[+2] Movement <for [Civilian] units>"],
-		"requiredTech": "Pottery"
+		"requiredTech": "Combined Arms"
 	},
   //Innovation
     	{
@@ -161,5 +178,13 @@
 		"production": 2,
 		"isNationalWonder": true,
 		"uniques": ["Only available <after adopting [Unconventional Sciences]>","Only available <in [Capital] cities>"],
+	},
+				{
+		"name": "wa",
+		"uniques": ["Only available <after adopting [Unconventional Sciences]>",
+			"Only available <in cities with a [Unconventional Sciences]>",
+			"Unbuildable","Unsellable",
+			"Can be purchased for [250] [Science] [in all cities] <(modified by game speed)>",],
+		"requiredTech": "Pottery"
 	},
 ]
