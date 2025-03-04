@@ -1,14 +1,17 @@
 [
   	{
 		"name": "White Phosphorus",
-		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"uniques": ["[+20]% Strength <when attacking>",
+		"No movement cost to pillage"],
 		"unitTypes": ["Gunpowder","Ranged Gunpowder","Siege","Armored","Helicopter"],
         "column": 1,
         "row": 3000
 	},
     	{
 		"name": "Napalm",
-		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"uniques": ["[+20]% Strength <when attacking>",
+		"[+20]% Strength <vs cities>",
+		"Destroyes tile improvements when attacking"],
 		"unitTypes": ["Ranged Water","Melee Water","Fighter","Bomber"],
         "column": 1,
         "row": 3001
