@@ -30,7 +30,6 @@
 		"uniques": ["Only available <if [Illegalize Individuality] is constructed>",
 		"[+2 Happiness] <while the empire is happy>"]
 	},
-	},
 	{
 		"name": "Brainwashing",
 		"uniques": ["Only available <after adopting [Social Engineering]>",
