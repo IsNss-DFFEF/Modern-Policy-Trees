@@ -237,7 +237,7 @@
 		{
 		"name": "Organ Farm",
 		"cost": 300
-		"requiredBuilding": "Research Station",
+		"requiredBuilding": "Research Lab",
 		"maintenance": 6,
 		"food": 8,
 		"production": 4,
