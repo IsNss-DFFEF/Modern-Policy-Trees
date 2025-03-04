@@ -1,0 +1,16 @@
+[
+  	{
+		"name": "White Phosphorus",
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Gunpowder","Ranged Gunpowder","Siege","Armored","Helicopter"],
+        "column": 1,
+        "row": 3000
+	},
+    	{
+		"name": "Napalm",
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Ranged Water","Melee Water","Fighter","Bomber"],
+        "column": 1,
+        "row": 3001
+	},
+]
