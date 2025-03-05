@@ -7,7 +7,7 @@
 		"uniques": ["[-1] population [in this city] <upon constructing [Migrant] [in this city]>",
 			"[1] population [in this city] <by consuming this unit>",
 			"Requires at least [2] population",
-      "Only available <if [Brainwashing] is constructed>"
+      "Only available <if [Resettlement] is constructed>"
     ],
 		"hurryCostModifier": 20
 	},
