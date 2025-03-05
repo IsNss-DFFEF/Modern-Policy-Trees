@@ -2,7 +2,7 @@
   //Authority
   	{
 		"name": "Social Engineering",
-		"cost": 750,
+		"cost": 250,
 		"culture": 5,
 		"happiness": 2,
 		"isNationalWonder": true,
@@ -82,7 +82,7 @@
     //Development
     	{
 		"name": "Economic Incentives",
-		"cost": 750,
+		"cost": 250,
 		"gold": 5,
 		"food": 2,
 		"isNationalWonder": true,
@@ -163,7 +163,7 @@
   //Innovation
     	{
 		"name": "Unconventional Sciences",
-		"cost": 750,
+		"cost": 250,
 		"science": 5,
 		"production": 2,
 		"isNationalWonder": true,
