@@ -10,26 +10,15 @@
 		"requiredTech": "Pottery"
 	},
 	{
-		"name": "Illeglize Individuality",
+		"name": "Resettlement",
 		"uniques": ["Only available <after adopting [Social Engineering]>",
 			"Only available <in cities with a [Social Engineering]>",
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
 		
-		"Comment [Unlocks Conformity School]"],
-		"requiredTech": "Globalization"
-	},
-		{
-		"name": "Conformity School",
-		"cost": 500
-		"maintenance": 6,
-		"happiness": 4,
-		"production": 2,
-		"food": 2,
-		"percentStatBonus": {"happiness": 50,"production": 15,"food":15},
-		"requiredTech": "Globalization",
-		"uniques": ["Only available <if [Illegalize Individuality] is constructed>",
-		"[+2 Happiness] <while the empire is happy>"]
+ 		"Free [Migrant] appears <in [Foreign] cities> <in cities with at least [2] [Population]>",
+                "[-1] population [in foreign cities] <in cities with at least [2] [Population]>"],
+		"requiredTech": "Radar"
 	},
 	{
 		"name": "Brainwashing",
