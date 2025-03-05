@@ -7,20 +7,21 @@
         "Only available <before adopting [Innovation]>"],
         "policies": [
             {
-                "name": "Resettlement",
+                "name": "Controlled Media",
                 "uniques": [
-                "Free [Migrant] appears <in [Foreign] cities> <in cities with at least [2] [Population]>",
-                "[-1] population [in foreign cities] <in cities with at least [2] [Population]>"
+                  "[+1 Happiness] per [4] population [in all cities]",
+                  "[+1 Culture] per [3] population [in all cities]",
+                  "[-15]% Culture cost of adopting new Policies"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "Propaganda Stations",
+                "name": "Propaganda",
                 "uniques": [
-                  "[+2 Happiness] <in cities with a [Broadcast Station]>",
-                  "[+2 Happiness] <in cities with a [Stadium]>",
-                  "[-25]% Unhappiness from [Population] [in puppeted cities] <when at war>"
+                  "[+1 Happiness] from all [Culture] buildings",
+                  "[+1 Happiness] from all [Happiness] buildings",
+                  "[+1 Happiness] per [3] social policies adopted"
                 ],
                 "row": 1,
                 "column": 3
@@ -30,19 +31,17 @@
                 "uniques": [
                   "Comment [Unlocks Social Engineering]"
                 ],
-                "requires": ["Propaganda Stations"],
+                "requires": ["Propaganda","Controlled Media"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "Devotion to the State",
+                "name": "Censorship",
                 "uniques": [
-                  "[+15]% [Production] [in all cities]",
-                  "[+15]% [Faith] [in all cities]",
-                  "[-15]% [Happiness] [in all cities]",
-                  "[-15]% [Science] [in all cities]",
+                  "[+2 Happiness, -1 Culture] from all [Broadcast Station] buildings",
+                  "[-15]% Unhappiness from [Population] [in all cities] <when at war>"
                 ],
-                "requires": ["Propaganda Stations"],
+                "requires": ["Controlled Media"],
                 "row": 2,
                 "column": 1
             },
@@ -51,27 +50,28 @@
                 "uniques": [
                   "[+12 Happiness] from all [Palace] buildings"
                 ],
-                "requires": ["Social Engineering"],
+                "requires": ["Social Engineering","Censorship"],
                 "row": 3,
-                "column": 5
+                "column": 4
             },
             {
                 "name": "Authority Complete",
-                "uniques": ["[-25]% Culture cost of adopting new Policies","[-15]% Unhappiness from [Population] [in all cities]"]
+                "uniques": [ "[+1 Happiness] from each Trade Route",
+                "[+3 Happiness, +2 Culture] from every [Citadel]"]
             }
         ]
     },
   {
         "name": "Development",
         "era": "Atomic era",
-        "uniques": ["[+1 Production] per [2] population [in all cities]","[-25]% construction time for [All] improvements",
+        "uniques": ["[+1 Production] per [2] population [in all cities]","[-15]% construction time for [All] improvements",
         "Only available <before adopting [Authority]>",
         "Only available <before adopting [Innovation]>"],
         "policies": [
             {
                 "name": "Urbanization",
                 "uniques": [
-                  "[+1] Population <in cities with atleast [10] population>"
+                  "[+1] Population <in cities with atleast [15] population>"
                 ],
                 "row": 1,
                 "column": 5
@@ -79,7 +79,7 @@
             {
                 "name": "Megaprojects",
                 "uniques": [
-                  "[+75]% [Production] <upon constructing [Wonders]>",
+                  "[+65]% [Production] <upon constructing [Wonders]>",
                   "[+15]% [Production] <upon constructing [Buildings]>"
                 ],
                 "row": 1,
@@ -128,7 +128,7 @@
                 "name": "Development Complete",
                 "uniques": [
                 "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -4 Gold] per [3] population [in all cities]",
-                "[+20]% [Food] [in all cities] <with atleast [10] population>"]
+                "[+20]% [Food] [in all cities] <with atleast [15] population>"]
             }
         ]
     },
@@ -198,7 +198,7 @@
                 "name": "Innovation Complete",
                 "uniques": [
                   "[+25]% strength for [All] military units <after discovering [Future Tech]>",
-                "[4] free [Great Scientist] units appear"]
+                "[3] free [Great Scientist] units appear"]
             }
         ]
     }
