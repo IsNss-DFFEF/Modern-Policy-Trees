@@ -16,11 +16,11 @@
                 "column": 5
             },
             {
-                "name": "Propagandization",
+                "name": "Propaganda Stations",
                 "uniques": [
                   "[+2 Happiness] <in cities with a [Broadcast Station]>",
                   "[+2 Happiness] <in cities with a [Stadium]>",
-                  "[-50]% Unhappiness from [Population] [in puppeted cities]"
+                  "[-25]% Unhappiness from [Population] [in puppeted cities] <when at war>"
                 ],
                 "row": 1,
                 "column": 3
@@ -30,7 +30,7 @@
                 "uniques": [
                   "Comment [Unlocks Social Engineering]"
                 ],
-                "requires": ["Propagandization"],
+                "requires": ["Propaganda Stations"],
                 "row": 2,
                 "column": 3
             },
@@ -42,7 +42,7 @@
                   "[-15]% [Happiness] [in all cities]",
                   "[-15]% [Science] [in all cities]",
                 ],
-                "requires": ["Propagandization"],
+                "requires": ["Propaganda Stations"],
                 "row": 2,
                 "column": 1
             },
