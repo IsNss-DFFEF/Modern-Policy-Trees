@@ -33,7 +33,7 @@
 		"name": "Pill Factory",
 		"cost": 300
 		"requiredBuilding": "Hospital",
-		"maintenance": 3,
+		"maintenance": 4,
 		"happiness": 2,
 		"food": 2,
 		"percentStatBonus": {"happiness": 15},
@@ -52,7 +52,7 @@
 		
 		"[+30]% [Happiness] [in all cities]",
 		"[+30]% [Production] [in all cities]",
-		"[-30]% [Culture] [in all cities]",
+		"[-30]% [Gold] [in all cities]",
 		"[-30]% [Science] [in all cities]"],
 		"requiredTech": "Telecommunications"
 	},
@@ -129,12 +129,13 @@
 		"name": "Media Satellite",
 		"cost": 300
 		"requiredBuilding": "Broadcast Tower",
-		"maintenance": 4,
-		"happiness": 3,
-		"culture": 3,
+		"maintenance": 2,
+		"gold": 2,
+		"culture": 2,
 		"percentStatBonus": {"culture": 15},
 		"requiredTech": "Satellites",
 		"uniques": ["Only available <if [Entertainment Industry] is constructed>",
+		"[+1]% [Happiness] [in all cities]",
 		"Provides [1] [Media]",
 		"Limited to [6] per Civilization"]
 	},
@@ -204,7 +205,7 @@
 		"name": "Desalination Plant",
 		"cost": 500
 		"requiredBuilding": "Factory",
-		"maintenance": 5,
+		"maintenance": 8,
 		"production": 3,
 		"food": 3,
 		"percentStatBonus": {"production": 15,"food": 15},
@@ -215,7 +216,8 @@
 	},
 					{
 		"name": "Organ Harvesting",
-		"uniques": ["Only available <after adopting [Unconventional Sciences]>",
+		"uniques": [
+			"Only available <after adopting [Unconventional Sciences]>",
 			"Only available <in cities with a [Unconventional Sciences]>",
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Science] [in all cities] <(modified by game speed)>",
@@ -223,7 +225,7 @@
 		"Comment [Unlocks Organ Farm]"],
 		"requiredTech": "Lasers"
 	},
-		{
+	{
 		"name": "Organ Farm",
 		"cost": 300
 		"requiredBuilding": "Research Lab",
@@ -248,7 +250,7 @@
 		"Comment [Unlocks Fusion Reactor]"],
 		"requiredTech": "Nuclear Fusion"
 	},
-			{
+	{
 		"name": "Fusion Reactor",
 		"cost": 500
 		"requiredBuilding": "Factory",
@@ -258,7 +260,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["Only available <if [Nuclear Fusion] is constructed>"]
 	},
-					{
+	{
 		"name": "Terraforming",
 		"uniques": ["Only available <after adopting [Unconventional Sciences]>",
 			"Only available <in cities with a [Unconventional Sciences]>",
