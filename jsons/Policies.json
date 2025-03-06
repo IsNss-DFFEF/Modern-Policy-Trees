@@ -127,7 +127,7 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -6 Gold] per [4] population [in all cities]",
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -6 Gold] per [6] population [in all cities]",
                 "[+20]% [Food] [in all cities] <with atleast [15] population>"]
             }
         ]
