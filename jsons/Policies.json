@@ -89,10 +89,10 @@
                 "name": "Globalization",
                 "uniques": [
                   "Resting point for Influence with City-States is increased by [20]",
-                  "[+15]% [Culture] [in all cities] <upon declaring friendship>",
-                  "[+15]% [Gold] [in all cities] <upon declaring friendship>",
-                  "[+15]% [Production] [in all cities] <upon declaring a defensive pact>",
-                  "[+15]% [Science] [in all cities] <upon declaring a defensive pact>",
+                  "[+5]% [Culture] [in all cities] <upon declaring friendship>",
+                  "[+5]% [Gold] [in all cities] <upon declaring friendship>",
+                  "[+5]% [Production] [in all cities] <upon declaring a defensive pact>",
+                  "[+5]% [Science] [in all cities] <upon declaring a defensive pact>",
 
                 ],
                 "requires": ["Urbanization"],
@@ -111,10 +111,10 @@
             {
                 "name": "Welfare State",
                 "uniques": [
-                  "[+15]% [Food] <in cities with a [Medical Lab]>",
-                  "[+15]% [Science] <in cities with a [Research Lab]>",
-                  "[+15]% [Culture] <in cities with a [Broadcast Tower]>",
-                  "[+15]% [Happiness] <in cities with a [Stadium]>",
+                  "[+10]% [Food] <in cities with a [Medical Lab]>",
+                  "[+10]% [Science] <in cities with a [Research Lab]>",
+                  "[+10]% [Culture] <in cities with a [Broadcast Tower]>",
+                  "[+10]% [Happiness] <in cities with a [Stadium]>",
                   "[-3 Gold] from all [Medical Lab] buildings",
                   "[-3 Gold] from all [Research Lab] buildings",
                   "[-3 Gold] from all [Broadcast Tower] buildings",
@@ -127,7 +127,7 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -4 Gold] per [3] population [in all cities]",
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -6 Gold] per [4] population [in all cities]",
                 "[+20]% [Food] [in all cities] <with atleast [15] population>"]
             }
         ]
