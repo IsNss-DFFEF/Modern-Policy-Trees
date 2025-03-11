@@ -20,7 +20,7 @@
                 "name": "Propaganda",
                 "uniques": [
                   "[+1 Happiness] from all [Culture] buildings",
-                  "[+1 Happiness] from all [Happiness] buildings",
+                  "[+1 Culture] from all [Happiness] buildings",
                   "[+1 Happiness] per [3] social policies adopted"
                 ],
                 "row": 1,
