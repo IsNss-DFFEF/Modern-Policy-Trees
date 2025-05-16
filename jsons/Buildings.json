@@ -257,16 +257,16 @@
 		"Limited to [6] per Civilization"]
 	},
 		{
-		"name": "Organ Farm",
+		"name": "Nanobot Factory",
 		"cost": 300
 		"requiredBuilding": "Research Lab",
 		"maintenance": 6,
 		"science": 3,
 		"food": 2,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "Lasers",
+		"requiredTech": "Nanotechnology",
 		"uniques": ["Only available <if [Organ Harvesting] is constructed>",
-		"Provides [1] [Organs]",
+		"Provides [1] [Nanobots]",
 		"Limited to [6] per Civilization"]
 	},
 ]
