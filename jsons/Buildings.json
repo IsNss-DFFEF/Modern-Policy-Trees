@@ -15,11 +15,10 @@
 			"Only available <in cities with a [Social Engineering]>",
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
-		
- 		"Free [Migrant] appears <in [Foreign] cities> <in cities with at least [2] [Population]>",
-                "[-1] population [in foreign cities] <in cities with at least [2] [Population]>"],
+		"Comment [Unlocks Migrant]"],
 		"requiredTech": "Radar"
 	},
+	
 	{
 		"name": "Brainwashing",
 		"uniques": ["Only available <after adopting [Social Engineering]>",
@@ -268,5 +267,13 @@
 		"uniques": ["Only available <if [Organ Harvesting] is constructed>",
 		"Provides [1] [Nanobots]",
 		"Limited to [6] per Civilization"]
+	},
+			{
+		"name": "Migrant",
+		"cost": 1
+		"uniques": ["Only available <if [Resettlement] is constructed>",
+ 		"Free [Migrant] appears",
+                "[-1] population [in this city]",
+		]
 	},
 ]
