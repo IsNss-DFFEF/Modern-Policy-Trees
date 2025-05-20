@@ -269,8 +269,8 @@
 		"Limited to [6] per Civilization"]
 	},
 			{
-		"name": "Migrant",
-		"cost": 1
+		"name": "Expel Population",
+		"cost": 120
 		"uniques": ["Only available <if [Resettlement] is constructed>",
  		"Free [Migrant] appears",
                 "[-1] population [in this city]","Requires at least [2] population","Remove [Migrant] [in this city]"
