@@ -23,7 +23,7 @@
 			"[+50]% construction time for [All] improvements",
 			"[-5] HP when healing",
 			"[-20]% Health from pillaging tiles",
-			"Unbuildable"
+			"Unbuildable"]
 	},
 	  	{
 		"name": "Terraformer",
