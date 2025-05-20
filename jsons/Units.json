@@ -4,11 +4,26 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 120,
-		"uniques": ["[1] population [in this city] <by consuming this unit>",
-			"Requires at least [2] population","Unbuildable",
-      "Only available <if [Resettlement] is constructed>"
+		"uniques": [
+			"[1] population [in this city] <by consuming this unit>",
+			"[3] free [Worker] units appear <by consuming this unit>",
+			"[2] free [Conscript] units appear <by consuming this unit>",
+			"Unbuildable",
+      			"Only available <if [Resettlement] is constructed>"
     ],
-		"hurryCostModifier": 20
+	},
+		{
+		"name": "Conscript",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 60,
+		"attackSound": "shot",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"[+50]% construction time for [All] improvements",
+			"[-5] HP when healing",
+			"[-20]% Health from pillaging tiles",
+			"Unbuildable"
 	},
 	  	{
 		"name": "Terraformer",
@@ -16,7 +31,8 @@
 		"movement": 2,
 		"cost": 900,
 		"uniques": [
-      "Only available <if [Terraforming] is constructed>"
+      			"Only available <if [Terraforming] is constructed>",
+			"Can build [Land] improvements on tiles"
     ],
 		"hurryCostModifier": 20
 	},
