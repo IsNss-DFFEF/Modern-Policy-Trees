@@ -15,7 +15,7 @@
 			"Only available <in cities with a [Social Engineering]>",
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
-		"Comment [Allows you to expel and reorganize population.]"],
+		"Comment [Allows you to expel and reorganize your population.]"],
 		"requiredTech": "Radar"
 	},
 	
