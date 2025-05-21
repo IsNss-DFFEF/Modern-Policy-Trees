@@ -186,15 +186,15 @@
 		"Must be next to [Coast]"]
 	},
 					{
-		"name": "Organ Harvesting",
+		"name": "Medicinal Nanotechnology",
 		"uniques": [
 			"Only available <after adopting [Unconventional Sciences]>",
 			"Only available <in cities with a [Unconventional Sciences]>",
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Science] [in all cities] <(modified by game speed)>",
 		
-		"Comment [Unlocks Organ Farm]"],
-		"requiredTech": "Lasers"
+		"Comment [Unlocks Nanobot Factory]"],
+		"requiredTech": "Nanotechnology"
 	},
 					{
 		"name": "Nuclear Fusion",
