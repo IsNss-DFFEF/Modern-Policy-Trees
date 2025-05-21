@@ -6,7 +6,7 @@
 		"culture": 5,
 		"happiness": 2,
 		"isNationalWonder": true,
-		"uniques": ["Only available <after adopting [Social Engineering]>","Only available <in [Capital] cities>"],
+		"uniques": ["Only available <after adopting [Social Engineering]>","Only available <in [Capital] cities>",],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -25,7 +25,8 @@
 			"Only available <in cities with a [Social Engineering]>",
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
-		"Comment [Unlocks Pill Factory]"],
+		"Comment [Unlocks Pill Factory]",
+		"Comment [The development of drugs or a group of drugs to make the population complacent and less capable of critical thinking.]"],
 		"requiredTech": "Pharmaceuticals"
 	},
 	{
@@ -38,18 +39,20 @@
 		"[+30]% [Happiness] [in all cities]",
 		"[+30]% [Production] [in all cities]",
 		"[-30]% [Gold] [in all cities]",
-		"[-30]% [Science] [in all cities]"],
+		"[-30]% [Science] [in all cities]",
+		"Comment [The manipulation and editing of the nation's primary language or languages to ensure any rebellious or treasonous thought are harder to express.]"],
 		"requiredTech": "Telecommunications"
 	},
 	{
 		"name": "Illegalize Inflation",
 		"uniques": ["Only available <after adopting [Social Engineering]>",
 			"Only available <in cities with a [Social Engineering]>",
-			"Unbuildable","Unsellable",
+			"Unbuildable",
 			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
 
 			"[-40]% [Gold] [in all cities]",
-			"[+2 Gold, +2 Food, +1 Production, +1 Happiness] [in all cities]"
+			"[+2 Gold, +2 Food, +1 Production, +1 Happiness] [in all cities]",
+		"Comment [The illegalization of inflation, keeping your currency locked at a singular fixed rate. This will have dire consequences for your economy. Are you sure you'd like to implement this?]"
 		],
 		"requiredTech": "Computers"
 	},
@@ -61,7 +64,8 @@
 			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
 		
 		"[+2 Happiness] from all [Public School] buildings",
-		"[+4 Happiness] from all [Courthouse] buildings",],
+		"[+4 Happiness] from all [Courthouse] buildings",
+		"Comment [To ensure the population does not rise up to the government's despotism and tyranny, they must learn to love and worship it from birth.]"],
 		"requiredTech": "Combined Arms"
 	},
     //Development
@@ -85,7 +89,8 @@
 			"[+1 Food, +1 Production] from [Pasture] tiles [in all cities]",
 			"[+1 Production, +1 Science] from [Quarry] tiles [in all cities]",
 			"[+1 Gold, +1 Food] from [Plantation] tiles [in all cities]",
-			"[+1 Food, +1 Gold] from [Fishing Boats] tiles [in all cities]"]
+			"[+1 Food, +1 Gold] from [Fishing Boats] tiles [in all cities]",
+		"Comment [To increase proffits, the natural resources of the nation will be more vigorously extracted for the development of the nation.]"]
 		"requiredTech": "Ecology"
 	},
 			{
@@ -97,7 +102,8 @@
 		
 		"[+2 Gold] from all [Production] buildings",
 		"[+2 Production] from all [Gold] buildings",
-		"Production to [Gold] conversion in cities changed by [+50]%"],
+		"Production to [Gold] conversion in cities changed by [+50]%",
+		"Comment [The blending of capitalist and socialist economic practices produced extreme results for the PRC, who's to say it can't do the same for your empire too?]"],
 		"requiredTech": "Radar"
 	},
 			{
@@ -107,7 +113,8 @@
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",
 		
-		"Comment [Unlocks Media Satellite]"],
+		"Comment [Unlocks Media Satellite]",
+		"Comment [Skibidi Toilet makes up to 10 million dollars a year.]"],
 		"requiredTech": "Telecommunications"
 	},
 			{
@@ -118,7 +125,7 @@
 			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",
 
 			"[+4 Gold, +2 Production, +2 Food] from [Manufactory] tiles [in all cities]",
-			"[+2 Gold, +2 Production, +2 Food] from all [Factory] buildings"],
+			"[+2 Gold, +2 Production, +2 Food] from all [Factory] buildings",],
 		"requiredTech": "Robotics"
 	},
 			{
@@ -128,7 +135,8 @@
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Gold] [in all cities] <(modified by game speed)>",
 		
-			"[+2] Movement <for [Civilian] units>"],
+			"[+2] Movement <for [Civilian] units>",
+		"Comment [Equipping construction workers with more mechanized equipment can allow them to traverse terrain around the empire more easily.]"],
 		"requiredTech": "Combined Arms"
 	},
   //Innovation
@@ -147,7 +155,8 @@
 			"Unbuildable","Unsellable",
 			"Can be purchased for [250] [Science] [in all cities] <(modified by game speed)>",
 		
-		"Comment [Unlocks Incendiary Weapons Factory]"],
+		"Comment [Unlocks Incendiary Weapons Factory]",
+		"Comment [White phosphorus and napalm are incredibly effective tools for destruction and combat. While it may be a warcrime to use White Phosphorus in combat, what would you care anyway? Why pass up an opportunity to use such a powerful substance for the whims of a 'Geneva Suggestion' anyway? ( ͡° ͜ʖ ͡°)]"],
 		"requiredTech": "Combined Arms"
 				},{
 		"name": "Incendiary Weapons Factory",
