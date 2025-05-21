@@ -274,6 +274,7 @@
 		"uniques": ["Only available <if [Resettlement] is constructed>",
  		"Free [Migrant] appears",
 		"Gain a free [Expulsion Effects] [in this city]",
+		"Remove [Expulsion Effects] [in this city]",
                 "[-1] population [in this city]","Requires at least [2] population","Remove [Migrant] [in this city]"
 		]
 	},
