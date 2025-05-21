@@ -268,12 +268,19 @@
 		"Provides [1] [Nanobots]",
 		"Limited to [6] per Civilization"]
 	},
-			{
+	{
 		"name": "Expel Population",
 		"cost": 120
 		"uniques": ["Only available <if [Resettlement] is constructed>",
  		"Free [Migrant] appears",
+		"Gain a free [Expulsion Effects] [in this city]",
                 "[-1] population [in this city]","Requires at least [2] population","Remove [Migrant] [in this city]"
 		]
+	},
+	{
+		"name": "Expulsion Effects",
+		"uniques": ["Only available <if [Resettlement] is constructed>",
+ 		"Unbuildable", "Unsellable", "Sell [Expel Population] buildings [in all cities]"],
+		"happiness": -3,
 	},
 ]
