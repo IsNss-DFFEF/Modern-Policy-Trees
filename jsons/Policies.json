@@ -71,7 +71,7 @@
             {
                 "name": "Urbanization",
                 "uniques": [
-                  "[+1] Population <in cities with atleast [15] population>"
+                  "[+1] Population <in [all cities]>"
                 ],
                 "row": 1,
                 "column": 5
