@@ -7,7 +7,7 @@
         "Only available <before adopting [Innovation]>"],
         "policies": [
             {
-                "name": "Controlled Media",
+                "name": "Radicalization",
                 "uniques": [
                   "[+1 Happiness] per [4] population [in all cities]",
                   "[+1 Culture] per [3] population [in all cities]",
@@ -17,7 +17,7 @@
                 "column": 5
             },
             {
-                "name": "Propaganda",
+                "name": "Controlled Media",
                 "uniques": [
                   "[+1 Happiness] from all [Culture] buildings",
                   "[+1 Culture] from all [Happiness] buildings",
@@ -31,7 +31,7 @@
                 "uniques": [
                   "Comment [Unlocks Social Engineering]"
                 ],
-                "requires": ["Propaganda","Controlled Media"],
+                "requires": ["Radicalization","Controlled Media"],
                 "row": 2,
                 "column": 3
             },
@@ -41,7 +41,7 @@
                   "[+2 Happiness, -1 Culture] from all [Broadcast Station] buildings",
                   "[-15]% Unhappiness from [Population] [in all cities] <when at war>"
                 ],
-                "requires": ["Controlled Media"],
+                "requires": ["Radicalization"],
                 "row": 2,
                 "column": 1
             },
@@ -69,9 +69,10 @@
         "Only available <before adopting [Innovation]>"],
         "policies": [
             {
-                "name": "Urbanization",
+                "name": "Immigration",
                 "uniques": [
-                  "[+1] Population <in [all cities]>"
+                  "[1] population in a random city <every [3] turns>",
+                  "[+20]% [Food] [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -95,7 +96,7 @@
                   "[+5]% [Science] [in all cities] <upon declaring a defensive pact>",
 
                 ],
-                "requires": ["Urbanization"],
+                "requires": ["Immigration"],
                 "row": 2,
                 "column": 5
             },
@@ -104,7 +105,7 @@
                 "uniques": [
                   "Comment [Unlocks Economic Incentives]"
                 ],
-                "requires": ["Urbanization","Megaprojects"],
+                "requires": ["Immigration","Megaprojects"],
                 "row": 2,
                 "column": 1
             },
@@ -127,8 +128,7 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -6 Gold] per [6] population [in all cities]",
-                "[+20]% [Food] [in all cities] <with atleast [15] population>"]
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -6 Gold] per [6] population [in all cities]",]
             }
         ]
     },
