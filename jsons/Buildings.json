@@ -247,8 +247,7 @@
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["Only available <if [Brainwashing] is constructed>",
 		"[-10]% Unhappiness from [Population] [in this city]",
-		"Provides [1] [Happy Pills]",
-		"Limited to [6] per Civilization"]
+		"Provides [1] [Happy Pills]"]
 	},
 		{
 		"name": "Media Satellite",
@@ -261,8 +260,7 @@
 		"requiredTech": "Satellites",
 		"uniques": ["Only available <if [Entertainment Industry] is constructed>",
 		"[+1]% [Happiness] [in all cities]",
-		"Provides [1] [Media]",
-		"Limited to [6] per Civilization"]
+		"Provides [1] [Media]"]
 	},
 		{
 		"name": "Nanobot Factory",
@@ -274,8 +272,7 @@
 		"percentStatBonus": {"food": 15},
 		"requiredTech": "Nanotechnology",
 		"uniques": ["Only available <if [Organ Harvesting] is constructed>",
-		"Provides [1] [Nanobots]",
-		"Limited to [6] per Civilization"]
+		"Provides [1] [Nanobots]"]
 	},
 	{
 		"name": "Expel Population",
