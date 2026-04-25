@@ -125,7 +125,7 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, -6 Gold] per [6] population [in all cities]",]
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science -6 Gold] per [6] population [in all cities]",]
             }
         ]
     },
