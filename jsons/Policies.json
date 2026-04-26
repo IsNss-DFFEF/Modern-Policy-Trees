@@ -2,7 +2,7 @@
   {
         "name": "Authority",
         "era": "Atomic era",
-        "uniques": ["[-15]% Unhappiness from [Population] [in all cities]",
+        "uniques": ["[-25]% Unhappiness from [Population] [in all cities]",
         "Only available <before adopting [Development]>",
         "Only available <before adopting [Innovation]>"],
         "policies": [
@@ -34,10 +34,10 @@
                 "column": 3
             },
             {
-                "name": "Censorship",
+                "name": "Surveilance State",
                 "uniques": [
-                  "[+2 Happiness, -1 Culture] from all [Broadcast Station] buildings",
-                  "[-15]% Unhappiness from [Population] [in all cities] <when at war>"
+                  "[+1 Happiness, +1 Production, -1 Culture] from all [Broadcast Station] buildings",
+                  "[+1 Production, +1 Happiness] from [improved] tiles [in all cities] <within [1] tiles of a [Citadel]>"
                 ],
                 "requires": ["Controlled Media"],
                 "row": 2,
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Authority Complete",
-                "uniques": ["[+1 Culture, +1 Happiness] [in all cities]",
+                "uniques": ["[+2 Culture, +2 Happiness] [in all cities]",
                 "[+2 Happiness, +2 Culture] from every [Great Improvements]"]
             }
         ]
@@ -125,7 +125,7 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science -6 Gold] per [6] population [in all cities]",]
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science, -6 Gold] per [6] population [in all cities]",]
             }
         ]
     },
