@@ -48,7 +48,7 @@
                 "uniques": [
                   "[+12 Happiness] from all [Palace] buildings"
                 ],
-                "requires": ["Social Engineering","Censorship"],
+                "requires": ["Social Engineering","Surveilance State"],
                 "row": 3,
                 "column": 4
             },
