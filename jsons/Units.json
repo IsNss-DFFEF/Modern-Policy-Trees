@@ -31,8 +31,18 @@
 		"movement": 2,
 		"cost": 900,
 		"uniques": [
-      			"Only available <if [Terraforming] is constructed>",
-			"Can build [Land] improvements on tiles"
+      		"Only available <if [Terraforming] is constructed>",
+			"Can build [Land] improvements on tiles",
+			"Can pass through impassable tiles",
+			"Turn this tile into a [Grassland] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Mountain] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Plains] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Desert] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Tundra] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Coast] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Ocean] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Lakes] tile <by consuming this unit> <in [Your] cities>",
+			"Turn this tile into a [Snow] tile <by consuming this unit> <in [Your] cities>",
     ],
 		"hurryCostModifier": 20
 	},
