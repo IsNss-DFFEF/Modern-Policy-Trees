@@ -4,7 +4,8 @@
         "era": "Atomic era",
         "uniques": ["[-25]% Unhappiness from [Population] [in all cities]",
         "Only available <before adopting [Development]>",
-        "Only available <before adopting [Innovation]>"],
+        "Only available <before adopting [Innovation]>",
+        "[+100]% weight to this choice for AI decisions"],
         "policies": [
             {
                 "name": "Totalitarianism",
@@ -19,7 +20,7 @@
                 "uniques": [
                   "[+1 Happiness] from all [Culture] buildings",
                   "[+1 Culture] from all [Happiness] buildings",
-                  "[+1 Happiness] per [3] social policies adopted"
+                  "[+1 Happiness, +1 Culture] per [4] social policies adopted"
                 ],
                 "row": 1,
                 "column": 5
@@ -36,7 +37,7 @@
             {
                 "name": "Surveilance State",
                 "uniques": [
-                  "[+1 Happiness, +1 Production, -1 Culture] from all [Broadcast Station] buildings",
+                  "[+1 Happiness, +2 Production, -1 Culture] from all [Broadcast Station] buildings",
                   "[+1 Production, +1 Happiness] from [improved] tiles [in all cities] <within [1] tiles of a [Citadel]>"
                 ],
                 "requires": ["Controlled Media"],
@@ -46,7 +47,7 @@
             {
                 "name": "Cult of Personality",
                 "uniques": [
-                  "[+12 Happiness] from all [Palace] buildings"
+                  "[+12 Happiness, +8 Culture] from all [Palace] buildings"
                 ],
                 "requires": ["Social Engineering","Surveilance State"],
                 "row": 3,
@@ -62,15 +63,16 @@
   {
         "name": "Development",
         "era": "Atomic era",
-        "uniques": ["[+1 Production] per [2] population [in all cities]","[-15]% construction time for [All] improvements",
+        "uniques": ["[+1 Production] per [3] population [in all cities]","[-15]% construction time for [All] improvements",
         "Only available <before adopting [Authority]>",
-        "Only available <before adopting [Innovation]>"],
+        "Only available <before adopting [Innovation]>",
+        "[+100]% weight to this choice for AI decisions"],
         "policies": [
             {
                 "name": "Immigration",
                 "uniques": [
-                  "[1] population in a random city <every [3] turns>",
-                  "[+20]% [Food] [in all cities]"
+                  "[1] population in a random city <every [8] turns>",
+                  "[+10]% [Food] [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -87,8 +89,8 @@
                 "name": "Globalization",
                 "uniques": [
                   "Resting point for Influence with City-States is increased by [20]",
-                  "[+5]% [Culture] [in all cities] <upon declaring friendship>",
-                  "[+5]% [Gold] [in all cities] <upon declaring friendship>",
+                  "[+10]% [Culture] [in all cities] <upon declaring friendship>",
+                  "[+10]% [Gold] [in all cities] <upon declaring friendship>",
                   "[+5]% [Production] [in all cities] <upon declaring a defensive pact>",
                   "[+5]% [Science] [in all cities] <upon declaring a defensive pact>",
 
@@ -109,10 +111,10 @@
             {
                 "name": "Welfare State",
                 "uniques": [
-                  "[+10]% [Food] <in cities with a [Medical Lab]>",
-                  "[+10]% [Science] <in cities with a [Research Lab]>",
-                  "[+10]% [Culture] <in cities with a [Broadcast Tower]>",
-                  "[+10]% [Happiness] <in cities with a [Stadium]>",
+                  "[+8]% [Food] <in cities with a [Medical Lab]>",
+                  "[+8]% [Science] <in cities with a [Research Lab]>",
+                  "[+8]% [Culture] <in cities with a [Broadcast Tower]>",
+                  "[+8]% [Happiness] <in cities with a [Stadium]>",
                   "[-3 Gold] from all [Medical Lab] buildings",
                   "[-3 Gold] from all [Research Lab] buildings",
                   "[-3 Gold] from all [Broadcast Tower] buildings",
@@ -125,24 +127,26 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science, -6 Gold] per [6] population [in all cities]",]
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science, -6 Gold] per [8] population [in all cities]",]
             }
         ]
     },
    {
         "name": "Innovation",
         "era": "Atomic era",
-        "uniques": ["[Great Scientist] is earned [50]% faster",
+        "uniques": ["[Great Scientist] is earned [33]% faster",
         "Only available <before adopting [Authority]>",
-        "Only available <before adopting [Development]>"],
+        "Only available <before adopting [Development]>",
+        "[+100]% weight to this choice for AI decisions"],
         "policies": [
             {
                 "name": "Modernizing Education",
                 "uniques": [
-                  "[+2 Science] from all [Science] buildings",
-                  "[+2 Food] from all [Food] buildings",
+                  "[+1 Science] from all [Science] buildings",
+                  "[+1 Food] from all [Food] buildings",
                   "[+2 Gold] from all [Gold] buildings",
-                  "[+2 Production] from all [Production] buildings",
+                  "[+1 Production] from all [Production] buildings",
+                  "[+2 Culture] from all [Culture] buildings",
                   "[+20]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
@@ -151,9 +155,9 @@
             {
                 "name": "Forgoing Ethics",
                 "uniques": [
-                  "[+20]% [Science] <in cities with a [Research Lab]>",
-                  "[+10]% [Food] <in cities with a [Research Lab]>",
-                  "[+10]% [Production] <in cities with a [Research Lab]>",
+                  "[+10]% [Science] <in cities with a [Research Lab]>",
+                  "[+5]% [Production] <in cities with a [Research Lab]>",
+                  "[-1 Happiness, +1 Science] from all [Research Lab] buildings"
                 ],
                 "requires": ["Modernizing Education"],
                 "row": 2,
@@ -171,11 +175,11 @@
             {
                 "name": "Accelerationism",
                 "uniques": [
-                  "[+3 Science] per [2] population [in all cities]",
-                  "[+2 Happiness, +3 Culture] <during the [Atomic era]>",
-                  "[+4 Happiness, +6 Culture] <during the [Information era]>",
-                  "[+6 Happiness, +9 Culture] <starting from the [Future era]>",
-                  "[+2 Happiness, +2 Culture, +2 Food, +2 Production] from [Academy] tiles [in all cities]"
+                  "[+1 Science] per [2] population [in all cities]",
+                  "[+12 Gold, +2 Science] <during the [Atomic era]>",
+                  "[+24 Gold, +4 Science] <during the [Information era]>",
+                  "[+36 Gold, +6 Science] <starting from the [Future era]>",
+                  "[+2 Gold, +2 Production, +2 Science] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
                 "column": 4
@@ -183,8 +187,8 @@
             {
                 "name": "Technological Utopia",
                 "uniques": [
-                  "[-2 Faith, +2 Science] per every [3] [Faith]",
-                  "[+2 Happiness, +2 Food, +2 Culture, +2 Science] [in all cities]"
+                  "[-2 Faith, +1 Science] per every [3] [Faith]",
+                  "[+1 Happiness, +1 Production, +2 Science] [in all cities]"
                   
                 ],
                 "requires": ["Accelerationism"],
@@ -195,7 +199,7 @@
                 "name": "Innovation Complete",
                 "uniques": [
                   "[+25]% strength for [All] military units <upon entering the [Future era]>",
-                "[3] free [Great Scientist] units appear"]
+                "[2] free [Great Scientist] units appear"]
             }
         ]
     }
