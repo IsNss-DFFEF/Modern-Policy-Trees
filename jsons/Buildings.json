@@ -7,7 +7,6 @@
 		"happiness": 2,
 		"isNationalWonder": true,
 		"uniques": ["Only available <after adopting [Social Engineering]>","Only available <in [Capital] cities>",],
-		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Resettlement",
@@ -37,8 +36,7 @@
 			"Can be purchased for [500] [Culture] [in all cities] <(modified by game speed)>",
 		
 		"[+30]% [Happiness] [in all cities]",
-		"[+30]% [Production] [in all cities]",
-		"[-30]% [Culture] [in all cities]",
+		"[+15]% [Production] [in all cities]",
 		"[-30]% [Science] [in all cities]",
 		"Comment [The manipulation and editing of the nation's primary language or languages to ensure any rebellious or treasonous thought are harder to express.]"],
 		"requiredTech": "Telecommunications"
@@ -187,7 +185,7 @@
 		"maintenance": 8,
 		"production": 3,
 		"food": 3,
-		"percentStatBonus": {"production": 15,"food": 15},
+		"percentStatBonus": {"production": 5,"food": 5},
 		"requiredTech": "Ecology",
 		"uniques": ["Only available <if [Desalination] is constructed>",
 		"Provides [1] [Salt]",
@@ -245,7 +243,8 @@
 		"percentStatBonus": {"production": 15},
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["Only available <if [Brainwashing] is constructed>",
-		"[-10]% Unhappiness from [Population] [in this city]",
+		"[-5]% Unhappiness from [Population] [in all cities]",
+		"[+1]% [Culture] [in all cities]",
 		"Provides [1] [Happy Pills]"]
 	},
 		{
@@ -271,7 +270,8 @@
 		"percentStatBonus": {"food": 15},
 		"requiredTech": "Nanotechnology",
 		"uniques": ["Only available <if [Medicinal Nanotechnology] is constructed>",
-		"Provides [1] [Nanobots]"]
+		"Provides [1] [Nanobots]",
+		"[+1]% growth [in all cities]"]
 	},
 	{
 		"name": "Expel Population",
