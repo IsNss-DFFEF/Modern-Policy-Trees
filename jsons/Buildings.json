@@ -33,7 +33,7 @@
 		"uniques": ["Only available <after adopting [Social Engineering]>",
 			"Only available <in cities with a [Social Engineering]>",
 			"Unbuildable","Unsellable",
-			"Can be purchased for [500] [Culture] [in all cities] <(modified by game speed)>",
+			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
 		
 		"[+30]% [Happiness] [in all cities]",
 		"[+15]% [Production] [in all cities]",
@@ -46,7 +46,7 @@
 		"uniques": ["Only available <after adopting [Social Engineering]>",
 			"Only available <in cities with a [Social Engineering]>",
 			"Unbuildable",
-			"Can be purchased for [500] [Culture] [in all cities] <(modified by game speed)>",
+			"Can be purchased for [250] [Culture] [in all cities] <(modified by game speed)>",
 
 			"[-40]% [Gold] [in all cities]",
 			"[+3 Gold, +2 Food, +2 Production, +2 Happiness] [in all cities]",
