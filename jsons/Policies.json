@@ -10,7 +10,18 @@
             {
                 "name": "Totalitarianism",
                 "uniques": [
-                  "[-33]% Culture cost of adopting new Policies"
+                  "[-33]% Culture cost of adopting new Policies",
+                  "Comment [+10% Strength per 10 Happiness up to +100% Strength]",
+                    "[+10]% Strength <when number of [Happiness] is between [0] and [10]> <hidden from users>",
+                    "[+20]% Strength <when number of [Happiness] is between [11] and [20]> <hidden from users>",
+                    "[+30]% Strength <when number of [Happiness] is between [21] and [30]> <hidden from users>",
+                    "[+40]% Strength <when number of [Happiness] is between [31] and [40]> <hidden from users>",
+                    "[+50]% Strength <when number of [Happiness] is between [41] and [50]> <hidden from users>",
+                    "[+60]% Strength <when number of [Happiness] is between [51] and [60]> <hidden from users>",
+                    "[+70]% Strength <when number of [Happiness] is between [61] and [70]> <hidden from users>",
+                    "[+80]% Strength <when number of [Happiness] is between [71] and [80]> <hidden from users>",
+                    "[+90]% Strength <when number of [Happiness] is between [81] and [90]> <hidden from users>",
+                    "[+100]% Strength <when number of [Happiness] is between [91] and [100]> <hidden from users>",
                 ],
                 "row": 1,
                 "column": 3
@@ -20,7 +31,7 @@
                 "uniques": [
                   "[+1 Happiness] from all [Culture] buildings",
                   "[+1 Culture] from all [Happiness] buildings",
-                  "[+1 Happiness, +1 Culture] per [4] social policies adopted"
+                  "[+1 Happiness, +1 Culture] per [3] social policies adopted"
                 ],
                 "row": 1,
                 "column": 5
@@ -38,7 +49,8 @@
                 "name": "Surveilance State",
                 "uniques": [
                   "[+1 Happiness, +2 Production, -1 Culture] from all [Broadcast Station] buildings",
-                  "[+1 Production, +1 Happiness] from [improved] tiles [in all cities] <within [1] tiles of a [Citadel]>"
+                  "[+1 Production, +1 Happiness] from [improved] tiles [in all cities] <within [1] tiles of a [Citadel]>",
+                  "[+4 Production, +4 Happiness] from [Citadel] tiles [in all cities]"
                 ],
                 "requires": ["Controlled Media"],
                 "row": 2,
@@ -48,7 +60,7 @@
                 "name": "Cult of Personality",
                 "uniques": [
                   "[+12 Happiness, +8 Culture] from all [Palace] buildings",
-                  "[+1 Culture, +1 Production, +1 Food] per every [20] [Happiness] <in [all] cities>"
+                  "[+1 Culture, +1 Production, +1 Food] per every [16] [Happiness] <in [all] cities>",
                 ],
                 "requires": ["Social Engineering","Surveilance State"],
                 "row": 3,
@@ -64,7 +76,7 @@
   {
         "name": "Development",
         "era": "Atomic era",
-        "uniques": ["[+1 Production] per [3] population [in all cities]","[-15]% construction time for [All] improvements",
+        "uniques": ["[+1 Production] per [2] population [in all cities]","[-15]% construction time for [All] improvements",
         "Only available <before adopting [Authority]>",
         "Only available <before adopting [Innovation]>",
         "[+100]% weight to this choice for AI decisions"],
@@ -72,7 +84,7 @@
             {
                 "name": "Immigration",
                 "uniques": [
-                  "[1] population in a random city <every [8] turns>",
+                  "[1] population in a random city <every [5] turns>",
                   "[+10]% [Food] [in all cities]"
                 ],
                 "row": 1,
@@ -92,8 +104,8 @@
                   "Resting point for Influence with City-States is increased by [20]",
                   "[+10]% [Culture] [in all cities] <upon declaring friendship>",
                   "[+10]% [Gold] [in all cities] <upon declaring friendship>",
-                  "[+5]% [Production] [in all cities] <upon declaring a defensive pact>",
-                  "[+5]% [Science] [in all cities] <upon declaring a defensive pact>",
+                  "[+10]% [Production] [in all cities] <upon declaring a defensive pact>",
+                  "[+10]% [Science] [in all cities] <upon declaring a defensive pact>",
 
                 ],
                 "requires": ["Immigration"],
@@ -112,10 +124,10 @@
             {
                 "name": "Welfare State",
                 "uniques": [
-                  "[+10]% [Food] <in cities with a [Medical Lab]>",
-                  "[+10]% [Science] <in cities with a [Research Lab]>",
-                  "[+10]% [Culture] <in cities with a [Broadcast Tower]>",
-                  "[+10]% [Happiness] <in cities with a [Stadium]>",
+                  "[+15]% [Food] <in cities with a [Medical Lab]>",
+                  "[+15]% [Science] <in cities with a [Research Lab]>",
+                  "[+15]% [Culture] <in cities with a [Broadcast Tower]>",
+                  "[+15]% [Happiness] <in cities with a [Stadium]>",
                   "[-3 Gold] from all [Medical Lab] buildings",
                   "[-3 Gold] from all [Research Lab] buildings",
                   "[-3 Gold] from all [Broadcast Tower] buildings",
@@ -128,7 +140,7 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science, -6 Gold] per [8] population [in all cities]",]
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science, -6 Gold] per [6] population [in all cities]",]
             }
         ]
     },
@@ -144,10 +156,10 @@
                 "name": "Modernizing Education",
                 "uniques": [
                   "[+2 Science] from all [Science] buildings",
-                  "[+2 Food] from all [Food] buildings",
-                  "[+2 Gold] from all [Gold] buildings",
-                  "[+2 Production] from all [Production] buildings",
-                  "[+2 Culture] from all [Culture] buildings",
+                  "[+1 Food] from all [Food] buildings",
+                  "[+3 Gold] from all [Gold] buildings",
+                  "[+1 Production] from all [Production] buildings",
+                  "[+3 Culture] from all [Culture] buildings",
                   "[+20]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
@@ -200,7 +212,7 @@
                 "name": "Innovation Complete",
                 "uniques": [
                   "[+25]% strength for [All] military units <upon entering the [Future era]>",
-                "[2] free [Great Scientist] units appear"]
+                "[3] free [Great Scientist] units appear"]
             }
         ]
     }
