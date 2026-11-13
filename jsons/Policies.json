@@ -84,7 +84,7 @@
             {
                 "name": "Immigration",
                 "uniques": [
-                  "[+1] population in a random city <every [1] turns>",
+                  "[+1] population in a random city <every [2] turns>",
                   "[+10]% [Food] [in all cities]"
                 ],
                 "row": 1,
