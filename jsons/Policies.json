@@ -10,7 +10,7 @@
             {
                 "name": "Totalitarianism",
                 "uniques": [
-                  "[-30]% Culture cost of adopting new Policies"
+                  "[-33]% Culture cost of adopting new Policies"
                 ],
                 "row": 1,
                 "column": 3
@@ -47,7 +47,8 @@
             {
                 "name": "Cult of Personality",
                 "uniques": [
-                  "[+12 Happiness, +8 Culture] from all [Palace] buildings"
+                  "[+12 Happiness, +8 Culture] from all [Palace] buildings",
+                  "[+1 Culture, +1 Production, +1 Food] per every [20] [Happiness] <in [all] cities>"
                 ],
                 "requires": ["Social Engineering","Surveilance State"],
                 "row": 3,
@@ -111,10 +112,10 @@
             {
                 "name": "Welfare State",
                 "uniques": [
-                  "[+8]% [Food] <in cities with a [Medical Lab]>",
-                  "[+8]% [Science] <in cities with a [Research Lab]>",
-                  "[+8]% [Culture] <in cities with a [Broadcast Tower]>",
-                  "[+8]% [Happiness] <in cities with a [Stadium]>",
+                  "[+10]% [Food] <in cities with a [Medical Lab]>",
+                  "[+10]% [Science] <in cities with a [Research Lab]>",
+                  "[+10]% [Culture] <in cities with a [Broadcast Tower]>",
+                  "[+10]% [Happiness] <in cities with a [Stadium]>",
                   "[-3 Gold] from all [Medical Lab] buildings",
                   "[-3 Gold] from all [Research Lab] buildings",
                   "[-3 Gold] from all [Broadcast Tower] buildings",
@@ -142,10 +143,10 @@
             {
                 "name": "Modernizing Education",
                 "uniques": [
-                  "[+1 Science] from all [Science] buildings",
-                  "[+1 Food] from all [Food] buildings",
+                  "[+2 Science] from all [Science] buildings",
+                  "[+2 Food] from all [Food] buildings",
                   "[+2 Gold] from all [Gold] buildings",
-                  "[+1 Production] from all [Production] buildings",
+                  "[+2 Production] from all [Production] buildings",
                   "[+2 Culture] from all [Culture] buildings",
                   "[+20]% Great Person generation [in all cities]"
                 ],
@@ -176,10 +177,10 @@
                 "name": "Accelerationism",
                 "uniques": [
                   "[+1 Science] per [2] population [in all cities]",
-                  "[+12 Gold, +2 Science] <during the [Atomic era]>",
-                  "[+24 Gold, +4 Science] <during the [Information era]>",
-                  "[+36 Gold, +6 Science] <starting from the [Future era]>",
-                  "[+2 Gold, +2 Production, +2 Science] from [Academy] tiles [in all cities]"
+                  "[+10 Culture, +8 Science] <during the [Atomic era]>",
+                  "[+20 Culture, +16 Science] <during the [Information era]>",
+                  "[+30 Culture, +24 Science] <starting from the [Future era]>",
+                  "[+2 Science, +3 Happiness, +3 Culture] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
                 "column": 4
@@ -187,7 +188,7 @@
             {
                 "name": "Technological Utopia",
                 "uniques": [
-                  "[-2 Faith, +1 Science] per every [3] [Faith]",
+                  "[-3 Faith, +2 Science] per every [5] [Faith]",
                   "[+1 Happiness, +1 Production, +2 Science] [in all cities]"
                   
                 ],
