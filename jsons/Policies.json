@@ -60,7 +60,7 @@
                 "name": "Cult of Personality",
                 "uniques": [
                   "[+12 Happiness, +8 Culture] from all [Palace] buildings",
-                  "[+1 Culture, +1 Production, +1 Food] per every [16] [Happiness] <in [all] cities>",
+                  "[+1 Culture, +1 Production, +1 Food] per every [20] [Happiness] <in [all] cities>",
                 ],
                 "requires": ["Social Engineering","Surveilance State"],
                 "row": 3,
