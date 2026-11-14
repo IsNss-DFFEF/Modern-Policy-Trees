@@ -200,7 +200,7 @@
             {
                 "name": "Technological Utopia",
                 "uniques": [
-                  "[-3 Faith, +2 Science] per every [5] [Faith]",
+                  "[-3 Faith, +2 Science] <for every [5] [[Faith] Per Turn]>",
                   "[+1 Happiness, +1 Production, +2 Science] [in all cities]"
                   
                 ],
