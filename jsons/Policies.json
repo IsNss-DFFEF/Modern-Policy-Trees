@@ -84,8 +84,16 @@
             {
                 "name": "Immigration",
                 "uniques": [
-                  "[+1] population in a random city <every [2] turns>",
-                  "[+10]% [Food] [in all cities]"
+                  "Comment [+1 population in 8 random cities]",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+1] population in a random city <hidden from users>",
+                  "[+15]% [Food] [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
