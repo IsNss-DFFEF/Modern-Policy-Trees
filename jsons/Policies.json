@@ -60,7 +60,7 @@
                 "name": "Cult of Personality",
                 "uniques": [
                   "[+12 Happiness, +8 Culture] from all [Palace] buildings",
-                  "[+1 Culture, +1 Production, +1 Food] per every [20] [Happiness] <in [all] cities>",
+                  "[+1 Culture, +1 Production, +1 Food] per every [16] [Happiness] <in [all] cities>",
                 ],
                 "requires": ["Social Engineering","Surveilance State"],
                 "row": 3,
@@ -140,7 +140,7 @@
             {
                 "name": "Development Complete",
                 "uniques": [
-                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science, -6 Gold] per [6] population [in all cities]",]
+                "[+1 Happiness, +1 Culture, +1 Production, +1 Food, +1 Science, -6 Gold] per [4] population [in all cities]",]
             }
         ]
     },
@@ -189,9 +189,7 @@
                 "name": "Accelerationism",
                 "uniques": [
                   "[+1 Science] per [2] population [in all cities]",
-                  "[+10 Culture, +8 Science] <during the [Atomic era]>",
-                  "[+20 Culture, +16 Science] <during the [Information era]>",
-                  "[+30 Culture, +24 Science] <starting from the [Future era]>",
+                  "[+1 Culture, +1 Happiness, +1 Science] <for every [2] [Researched [all] Technologies]>",
                   "[+2 Science, +3 Happiness, +3 Culture] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
