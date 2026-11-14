@@ -60,7 +60,7 @@
                 "name": "Cult of Personality",
                 "uniques": [
                   "[+12 Happiness, +8 Culture] from all [Palace] buildings",
-                  "[+1 Culture, +1 Production, +1 Food] per every [16] [Happiness] <in [all] cities>",
+                  "[+1 Culture, +1 Production, +1 Food] per every [20] [Happiness] <in [all] cities>",
                 ],
                 "requires": ["Social Engineering","Surveilance State"],
                 "row": 3,
@@ -197,7 +197,7 @@
                 "name": "Accelerationism",
                 "uniques": [
                   "[+1 Science] per [2] population [in all cities]",
-                  "[+1 Culture, +1 Happiness, +1 Science] <for every [2] [Researched [all] Technologies]>",
+                  "[+2 Culture, +2 Happiness, +2 Science] <for every [3] [Researched [all] Technologies]>",
                   "[+2 Science, +3 Happiness, +3 Culture] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
