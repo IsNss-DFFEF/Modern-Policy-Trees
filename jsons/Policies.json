@@ -156,10 +156,10 @@
                 "name": "Modernizing Education",
                 "uniques": [
                   "[+2 Science] from all [Science] buildings",
-                  "[+1 Food] from all [Food] buildings",
-                  "[+3 Gold] from all [Gold] buildings",
-                  "[+1 Production] from all [Production] buildings",
-                  "[+3 Culture] from all [Culture] buildings",
+                  "[+2 Food] from all [Food] buildings",
+                  "[+2 Gold] from all [Gold] buildings",
+                  "[+2 Production] from all [Production] buildings",
+                  "[+2 Culture] from all [Culture] buildings",
                   "[+20]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
@@ -190,7 +190,7 @@
                 "uniques": [
                   "[+1 Science] per [2] population [in all cities]",
                   "[+2 Culture, +2 Happiness, +2 Science] <for every [3] [Researched [all] Technologies]>",
-                  "[+2 Science, +3 Happiness, +3 Culture] from [Academy] tiles [in all cities]"
+                  "[+2 Science, +3 Happiness, +3 Culture, +2 Food] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
                 "column": 4
