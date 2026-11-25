@@ -3,7 +3,6 @@
 		"name": "Migrant",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 120,
 		"uniques": [
 			"[1] population [in this city] <by consuming this unit>",
 			"[3] free [Worker] units appear <by consuming this unit>",
@@ -16,7 +15,7 @@
 		"name": "Conscript",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 60,
+		"strength": 70,
 		"attackSound": "shot",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
@@ -29,7 +28,7 @@
 		"name": "Terraformer",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 900,
+		"cost": 1200,
 		"uniques": [
       		"Only available <if [Terraforming] is constructed>",
 			"Can build [Land] improvements on tiles",
