@@ -30,8 +30,7 @@
                 "name": "Controlled Media",
                 "uniques": [
                   "[+1 Happiness] from all [Culture] buildings",
-                  "[+1 Culture] from all [Happiness] buildings",
-                  "[+1 Happiness, +1 Culture] per [3] social policies adopted"
+                  "[+1 Happiness] per [5] social policies adopted"
                 ],
                 "row": 1,
                 "column": 4
@@ -43,7 +42,7 @@
                 ],
                 "requires": ["Totalitarianism","Controlled Media"],
                 "row": 2,
-                "column": 5
+                "column": 1
             },
             {
                 "name": "Surveillance State",
@@ -53,7 +52,7 @@
                 ],
                 "requires": ["Controlled Media"],
                 "row": 2,
-                "column": 1
+                "column": 5
             },
             {
                 "name": "Cult of Personality",
@@ -154,11 +153,11 @@
             {
                 "name": "Modernizing Education",
                 "uniques": [
-                  "[+2 Science] from all [Science] buildings",
-                  "[+2 Food] from all [Food] buildings",
-                  "[+2 Gold] from all [Gold] buildings",
-                  "[+2 Production] from all [Production] buildings",
-                  "[+2 Culture] from all [Culture] buildings",
+                  "[+1 Science] from all [Science] buildings",
+                  "[+1 Food] from all [Food] buildings",
+                  "[+1 Gold] from all [Gold] buildings",
+                  "[+1 Production] from all [Production] buildings",
+                  "[+1 Culture] from all [Culture] buildings",
                   "[+20]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
@@ -188,7 +187,7 @@
                 "name": "Accelerationism",
                 "uniques": [
                   "[+1 Science] per [1] population [in all cities]",
-                  "[+1 Culture, +1 Happiness, +1 Science] <for every [3] [Researched [all] Technologies]>",
+                  "[+1 Culture, +1 Happiness, +1 Science] <for every [5] [Researched [all] Technologies]>",
                   "[+2 Science, +3 Happiness, +3 Culture, +2 Food] from [Academy] tiles [in all cities]"
                 ],
                 "row": 2,
@@ -197,7 +196,7 @@
             {
                 "name": "Technological Utopia",
                 "uniques": [
-                  "[-1 Faith, +1 Science] <for every [2] [Faith]>",
+                  "[-1 Faith, +1 Science] <for every [2] [[Faith] per turn]>",
                   "[+1 Happiness, +1 Production, +2 Science] [in all cities]"
                   
                 ],
