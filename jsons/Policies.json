@@ -24,7 +24,7 @@
                     "[+100]% Strength <when number of [Happiness] is above [450]> <hidden from users>",
                 ],
                 "row": 1,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Controlled Media",
@@ -34,7 +34,7 @@
                   "[+1 Happiness, +1 Culture] per [3] social policies adopted"
                 ],
                 "row": 1,
-                "column": 5
+                "column": 4
             },
             {
                 "name": "Social Engineering",
@@ -42,8 +42,8 @@
                   "Comment [Unlocks Social Engineering]"
                 ],
                 "requires": ["Totalitarianism","Controlled Media"],
-                "row": 2,
-                "column": 3
+                "row": 3,
+                "column": 5
             },
             {
                 "name": "Surveillance State",
@@ -52,7 +52,7 @@
                   "[+4 Production, +4 Happiness] from [Citadel] tiles [in all cities]"
                 ],
                 "requires": ["Controlled Media"],
-                "row": 2,
+                "row": 3,
                 "column": 1
             },
             {
@@ -61,9 +61,9 @@
                   "[+12 Happiness] from all [Palace] buildings",
                   "[+1 Culture, +1 Production, +1 Food] [in all cities] <for every [50] [Happiness]>",
                 ],
-                "requires": ["Social Engineering","Surveilance State"],
-                "row": 3,
-                "column": 4
+                "requires": ["Social Engineering","Surveillance State"],
+                "row": 2,
+                "column": 3
             },
             {
                 "name": "Authority Complete",
